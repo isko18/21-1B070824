@@ -65,3 +65,6 @@ payments = [CreditCard(), PayPal(), BankTransfer()]
 
 for payment in payments:
     print(payment.pay(input("Введите сумму: ")))
+    
+class Isko:
+    pass
